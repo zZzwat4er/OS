@@ -1,0 +1,19 @@
+  105  cd ~ 
+  106  mkdir OS/week1
+  107  mkdir OS
+  108  mkdir OS/week1
+  109  cd Os/week1
+  110  cd OS/week1
+  111  ls -l /usr/bin/*gcc* -r >./ex1.txt
+  112  cat ex1.txt
+  113  history >ex2.txt
+  114  cat ex2.txt 
+  115  nano ex3.sh
+  116  sh ex3.sh 
+  117  nano main.c
+  118  gcc main.c -o ex4
+  119  ./ex4
+  120  nano main.c
+  121  gcc main.c -o ex4
+  122  ./ex4
+  123  history >ex2.txt

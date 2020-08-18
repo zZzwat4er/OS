@@ -1,0 +1,6 @@
+-rwxr-xr-x. 3 root root 1226920 Apr  8 16:52 /usr/bin/x86_64-redhat-linux-gcc-9
+-rwxr-xr-x. 3 root root 1226920 Apr  8 16:52 /usr/bin/x86_64-redhat-linux-gcc
+-rwxr-xr-x. 1 root root   41912 Apr  8 16:52 /usr/bin/gcc-ranlib
+-rwxr-xr-x. 1 root root   41912 Apr  8 16:52 /usr/bin/gcc-nm
+-rwxr-xr-x. 1 root root   41896 Apr  8 16:52 /usr/bin/gcc-ar
+-rwxr-xr-x. 3 root root 1226920 Apr  8 16:52 /usr/bin/gcc
