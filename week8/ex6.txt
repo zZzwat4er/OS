@@ -1,0 +1,4 @@
+so we have page size = 8KB and 16-bit system
+form page size = 8KB => we have 2^3 * 2^10 = 2^13 bits that specify bytes offset
+and 2^16/2^13 = 2^3 bits that could specify virtual pages 
+thus we have 2^3 = 8 virtual pages and the same amount of entries (8) in page table

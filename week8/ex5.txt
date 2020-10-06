@@ -1,0 +1,11 @@
+Physical address - is a real address that points on some part of a RAM chip.
+Virtual address - is an address that used by the program to makesome actions.
+
+in reality when we are trying to accses some virtual address in a program 
+we are trying to accses this in virtual memory which is structured as it should be
+in a program, but in actual memory all parts of a progam are devided in many pises
+around all RAM. Thus we use a page table in order to point to some "page" in a RAM
+and then accses to some physical addres which we tring to accses though the virtual address
+
+Thus Virtual address is an address in a program and Physical address is an actual address in a 
+system
