@@ -1,0 +1,29 @@
+original sequence: 10 10 6 1 3 8 5 3 1 1 1 10 7 7 1 6 10 6 3 3
+better sequence: 10 10 10 10 6 6 6 1 8 5 1 1 1 7 7 1 3 3 3 3
+worst sequence: 10 6 1 7 3 8 10 6 1 7 3 5 10 10 6 1 1 1 3 3
+
+original ratio: 1
+better ratio: 1.5
+worst ratio: 0.25
+
+origial sequence was randomly builded 
+so second(better) sequence has greater ratio since all the requests to each page was done before page 
+was removed from the memory so thouse page almost was no shared in/out
+but from the outher hand thierd(worst) sequence has less ratio comapare to the original one 
+since here page was shared in/out several times and much more times then in original sequence
+(since we was runout of memory right before this pahe should be hitten)
+
+P.S.
+calculations was done for page nomber = 5
+all sequences are build from thouse numbers:
+num - num count
+
+1 	- 5
+3 	- 4
+5 	- 1
+6 	- 3
+7 	- 2
+8 	- 1
+10 	- 4
+
+20 numbers overall
