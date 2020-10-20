@@ -1,0 +1,8 @@
+-rw-rw-r--. 1 wat4er wat4er 1 Oct 20 13:24 _ex3.txt
+-rw-rw-r--. 1 wat4er wat4er 1 Oct 20 13:24 _ex3.txt
+----rw-rwx. 1 wat4er wat4er 1 Oct 20 13:24 _ex3.txt
+-rwxrw-rwx. 1 wat4er wat4er 1 Oct 20 13:24 _ex3.txt
+-rwxrwxrwx. 1 wat4er wat4er 1 Oct 20 13:24 _ex3.txt
+660 = rw-rw----
+775 = rwxrwxr-x
+777 = rwxrwxrwx

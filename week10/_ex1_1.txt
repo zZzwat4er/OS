@@ -1,0 +1,6 @@
+total 8
+4850080 drwxrwxr-x.  2 wat4er wat4er 4096 Oct 20 12:53 .
+3021435 drwxrwxr-x. 13 wat4er wat4er 4096 Oct 20 12:26 ..
+4850316 -rw-rw-r--.  3 wat4er wat4er    0 Oct 20 12:54 _ex1_1.txt
+4850316 -rw-rw-r--.  3 wat4er wat4er    0 Oct 20 12:54 _ex1_2.txt
+4850316 -rw-rw-r--.  3 wat4er wat4er    0 Oct 20 12:54 _ex1.txt
