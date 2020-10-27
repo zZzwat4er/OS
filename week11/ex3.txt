@@ -1,0 +1,16 @@
+========= first output
+Hello
+Hello
+
+=========
+========= second output
+Hello
+
+
+
+=========
+
+since stdout is line buffered in default at first output "Hello" repeated because 
+buffer was not closed with "\n" sign so it was copied during fork
+and at second output the buffer was empty when fork was called, as a result
+there is no repetition
