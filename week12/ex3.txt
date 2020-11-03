@@ -1,0 +1,8 @@
+depends on the file size and buffer size time required for program execution
+changes a little bit but not to much.
+Nevertheless, if SYNC is turned on the execution time increases a lot.
+user or system execution time still pretty low but real execution time is much
+higher then without SYNC, since "O_SYNC provides synchronized I/O file integrity completion, meaning
+write operations will flush data and all associated metadata to the underlying hardware." and if 
+buffer would no complete coping in one "write" operation it will increase execution time since 
+we need to provide metadata each write operation.
