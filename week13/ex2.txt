@@ -1,0 +1,35 @@
+prevention is an approach when programmer 
+design a software in such a way that 
+one of deadlock condition
+example of a situation when this approach is
+better then others is work with printer
+we have some fast processes that wants to 
+use a printer and in order to prevent 
+deadlock we spool all this requests that
+break mutual exclusion condition
+
+detect and recovery: we wait to deadlock 
+occurs and trying to localize a problem 
+(find a loop in graph of dependencies) and
+solve it by taking resources from a process,
+rollback(move process to earlier state) or
+by "killing" one of a process inside a loop
+this approach may be more efficient for example
+when we need to data copy from one file to
+another and it may happens that one of 
+required files lock so process cannot 
+terminate without it. this approach is much 
+more faster than prevention but may lead to
+"starvation" 
+
+avoidance: we try to deploy resources in 
+such a way that our system is always stays 
+in safe state(when we can schedule processes 
+in such a way we do not meet a deadlock) 
+for example: 2 processes trying to get 2 
+same resources and one of resources is 
+already allocated to one process so we 
+schedule this processes in the way that 
+process that already got a resource runs 
+first untill it terminates and returns all 
+resources
